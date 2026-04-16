@@ -638,28 +638,6 @@
       </div>
     </div>
 
-    <!-- ORDERS TABLE -->
-    <div class="table-section">
-      <div class="table-header">
-        <div class="table-title">
-          📋 Pedidos
-          <span class="badge-count" id="table-count">0</span>
-        </div>
-        <div class="filter-tabs">
-          <button class="filter-tab active" onclick="filterTable('all')">Todos</button>
-          <button class="filter-tab" onclick="filterTable('aguardando')">Aguardando</button>
-          <button class="filter-tab" onclick="filterTable('emSeparacao')">Em Separação</button>
-          <button class="filter-tab" onclick="filterTable('pronto')">Prontos p/ Envio</button>
-        </div>
-      </div>
-      <div id="table-container">
-        <div class="empty-state">
-          <div class="empty-icon">📭</div>
-          <p>Clique em <strong>Atualizar</strong> para carregar os pedidos</p>
-        </div>
-      </div>
-    </div>
-
     <!-- RANKING DE PRODUTOS -->
     <div class="table-section" style="margin-top:0">
       <div class="table-header">
@@ -685,6 +663,28 @@
         <div class="empty-state">
           <div class="empty-icon">📦</div>
           <p>Selecione um período acima para ver o ranking</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ORDERS TABLE -->
+    <div class="table-section">
+      <div class="table-header">
+        <div class="table-title">
+          📋 Pedidos
+          <span class="badge-count" id="table-count">0</span>
+        </div>
+        <div class="filter-tabs">
+          <button class="filter-tab active" onclick="filterTable('all')">Todos</button>
+          <button class="filter-tab" onclick="filterTable('aguardando')">Aguardando</button>
+          <button class="filter-tab" onclick="filterTable('emSeparacao')">Em Separação</button>
+          <button class="filter-tab" onclick="filterTable('pronto')">Prontos p/ Envio</button>
+        </div>
+      </div>
+      <div id="table-container">
+        <div class="empty-state">
+          <div class="empty-icon">📭</div>
+          <p>Clique em <strong>Atualizar</strong> para carregar os pedidos</p>
         </div>
       </div>
     </div>
